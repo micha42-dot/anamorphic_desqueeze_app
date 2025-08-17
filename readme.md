@@ -4,6 +4,9 @@ You can choose the output format for the processed images. By default, the origi
 
 The Desqueeze-App is designed for efficient batch processing and supports optional multithreading for faster execution. It also includes a built-in self-test that generates dummy images to verify that the program works correctly.
 
+In addition to the Python script, a pre-built Windows executable file is available so that users can run the program without installing Python or additional dependencies. This makes it convenient for non-technical users who just want to drag and drop their images and get corrected results.
+
 To install the application, you simply clone the repository and install the dependencies listed in the requirements file, which at present includes only Pillow. Once installed, you can run the tool with default settings to desqueeze images with a factor of 1.33, or you can specify presets or custom factors along with your choice of export format. Example commands are provided in the documentation to show how to export as JPG with a specific quality, how to apply a custom factor with PNG export, and how to run the self-test mode.
+
 
 The project requires Python version 3.9 or higher. It is open source and distributed under the Apache License 2.0.
